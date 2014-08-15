@@ -2,11 +2,19 @@
 
 *{
   font-family: 'Open Sans', sans-serif;
-  font-size: 13px;
+  font-size: 20px;
 }
 
 body{
-  background-image: url(/img/node.png);
-  background-size: cover;
+  background-color: yellow;
+  /*background-size: cover;*/
 }
 
+.box {
+  display: inline-block;
+  border: 1px solid blue;
+  margin: 10px;
+  width: 30px;
+  height: 30px;
+  border-radius: 10px;
+}
