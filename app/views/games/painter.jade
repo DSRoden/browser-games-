@@ -2,6 +2,11 @@ extends ../shared/template
 block content
   h2 Painter!
   #controls
-    
+    input(name='colorval', type='color')
+    button Add Color
+  #colors
+    #selected
+  #canvas
+
 block scripts
   script(src='/js/user/painter.js')
